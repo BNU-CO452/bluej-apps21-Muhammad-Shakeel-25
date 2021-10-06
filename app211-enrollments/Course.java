@@ -4,7 +4,7 @@ import java.util.*;
  * This class contains information about an undergraduate course
  * at BNU together with a list of student who are enrolled
  *
- * @author Derek Peacock
+ * @author Muhammad Shakeel
  * @version 1.0 14/07/2021
  */
 public class Course
@@ -13,15 +13,16 @@ public class Course
     private String code;
     // The full title including qualification and subject
     private String title;
-    
+    private int credit;
     /**
      * Create a Course with a maximum number of enrolments. 
      * All other details are set to unkown values.
      */
-    public Course(String code, String title)
+    public Course(String code, String title,int credit)
     {
         this.code = code;
         this.title = title;
+        this.credit=credit;
     }
 
     
@@ -34,6 +35,7 @@ public class Course
         printHeading();
         
         System.out.println(" Course Code: " + code + ": " + title);
+        System.out.println(" Course credit: " + credit);
         System.out.println();
     }
     
@@ -44,6 +46,7 @@ public class Course
     {
         System.out.println(" --------------------------------");
         System.out.println("   App211: Course Details");
+        System.out.println("  BY Muhammad Shakeel");
         System.out.println(" --------------------------------");
         System.out.println();
     }
