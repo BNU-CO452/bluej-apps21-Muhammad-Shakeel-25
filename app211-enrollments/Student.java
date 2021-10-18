@@ -53,7 +53,7 @@ public class Student
      */
     public String getDateOfBirth()
     {
-        return date_of_birth;
+        return ""+date_of_birth;
     }
     
      /**
