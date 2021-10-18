@@ -1,0 +1,42 @@
+ Student ID: 21924162 Name: Shakeel
+ Student Father Name: Liaqat Date of birth: 10121995
+ Student ID: 21924162 Name: Shakeel
+ Student Father Name: Liaqat Date of birth: 10121995
+ --------------------------------
+   App211: Course Details
+  BY Muhammad Shakeel
+ --------------------------------
+
+ Course Code: CO452: Programming Concepts
+ Course credit: 4
+
+Student1.print();
+ Student ID: 21924162 Name: Shakeel
+ Student Father Name: Liaqat Date of birth: 10121995
+course1.print();
+ --------------------------------
+   App211: Course Details
+  BY Muhammad Shakeel
+ --------------------------------
+
+ Course Code: CO452: Programming Concepts
+ Course credit: 4
+
+Student1.enrol(course1);
+Student1.printCourse();
+ --------------------------------
+   App211: Course Details
+  BY Muhammad Shakeel
+ --------------------------------
+
+ Course Code: CO452: Programming Concepts
+ Course credit: 4
+
+Student1.getDateOfBirth()
+    returned String "10121995"
+Student1.getFatherName()
+    returned String "Liaqat"
+Student1.getID()
+    returned int 21924162
+Student1.getName()
+    returned String "Shakeel"
