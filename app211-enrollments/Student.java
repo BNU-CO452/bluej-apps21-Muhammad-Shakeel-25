@@ -69,6 +69,23 @@ public class Student
         this.course = course;
     }
     
+    
+      /**
+     * Get Scholarship for the student .
+     */
+    public void getScholarship(int age)
+    {
+        if(age<25)
+        {
+        System.out.println("you are eligible for a Scholarship");
+        }
+    else
+    {
+        System.out.println("you are not eligible for a Scholarship");
+    }
+    }
+    
+    
     /**
      * Print the student's name and ID number to the output terminal.
      */
