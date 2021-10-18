@@ -1,0 +1,12 @@
+ Student ID: 21924162 Name: Shakeel
+ Student Father Name: Liaqat Date of birth: 10121995
+ Student ID: 21924162 Name: Shakeel
+ Student Father Name: Liaqat Date of birth: 10121995
+ --------------------------------
+   App211: Course Details
+  BY Muhammad Shakeel
+ --------------------------------
+
+ Course Code: CO452: Programming Concepts
+ Course credit: 4
+
