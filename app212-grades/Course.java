@@ -19,7 +19,7 @@ public class Course
      
     public Course()
     {
-        this("BT1GDV1", "BSc Games Development");
+        this("AI", "Artificial Inteligence");
          modules  = new ArrayList<Module>();
         createModules();
     }
