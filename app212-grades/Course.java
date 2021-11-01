@@ -63,6 +63,10 @@ public class Course
         {
             modules.add(module);
         }
+        else
+        {
+        System.out.println("Error: You can enter only four modules ");
+        }
     }
     
     /**
