@@ -46,4 +46,6 @@ student1.printTranscript();
 
 Module module5 = new Module("CO455", "Game Development");
 Error: You can enter only four modules
-
+ModuleMark moduleMa4 = new ModuleMark(module4);
+moduleMa4.setMark(0);
+You fail in this module

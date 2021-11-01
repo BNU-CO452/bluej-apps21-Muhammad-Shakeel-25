@@ -43,6 +43,10 @@ public class ModuleMark
     public void setMark(int mark)
     {
         this.mark = mark;
+        if(mark<40)
+        {
+        System.out.println("You fail in this module ");
+        }
     }
     
     public Module getModule()
