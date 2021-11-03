@@ -16,7 +16,9 @@ public class Course
     private String title;
     
     private Grades finalGrade;
-     
+    /**
+     * its the constructer.
+     */ 
     public Course()
     {
         this("AI", "Artificial Inteligence");
@@ -57,6 +59,10 @@ public class Course
     addModule(co459);
     }
     
+    /**
+     * add module of the student.
+     */
+    
     public void addModule(Module module)
     {
         if(modules.size() < MAXN_MODULES)
@@ -70,7 +76,7 @@ public class Course
     }
     
     /**
-     * 
+     * its convert marks in to grades
      */
     public Grades convertToGrade(int mark)
     {

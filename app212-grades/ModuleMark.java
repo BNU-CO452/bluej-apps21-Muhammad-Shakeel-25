@@ -9,7 +9,7 @@ public class ModuleMark
 {
     private int mark;
     private Module module;
-    
+
     /**
      * Constructor for objects of class ModuleMark
      */
@@ -18,12 +18,15 @@ public class ModuleMark
         mark = 0;
         this.module = module;
     }
-    
+
+    /**
+     * Return the mark of this student.
+     */
     public int getValue()
     {
         return mark;
     }
-    
+
     /**
      * If the mark is 40% or more then the 
      * student is awarded the module's credit.
@@ -39,21 +42,27 @@ public class ModuleMark
             return Module.CREDIT;
         }
     }
-    
+
+    /**
+     * Set the marks of student.
+     */
     public void setMark(int mark)
     {
         this.mark = mark;
         if(mark<40)
         {
-        System.out.println("You fail in this module ");
+            System.out.println("You fail in this module ");
         }
     }
-    
+
+    /**
+     * Return the module of this student.
+     */
     public Module getModule()
     {
         return module;
     }
-    
+
     /**
      * Print the module details and any credit
      * that has been awarded.

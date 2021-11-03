@@ -24,12 +24,16 @@ public class Module
         this.title = title;
     }
 
-   
+   /**
+     * Return the code of this student.
+     */
     public String getCode()
     {
         return code;
     }
-    
+    /**
+     * Return the title of this student.
+     */
     
     public String getTitle()
     {
