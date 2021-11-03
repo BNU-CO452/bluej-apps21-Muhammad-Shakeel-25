@@ -58,6 +58,7 @@ public class Student
         }
 
     }
+
     /**
      * Set the student's course
      */
@@ -129,7 +130,7 @@ public class Student
     {
         System.out.println(" ------------------------------------");
         System.out.println(" App21-02: Exam Board Transcript 2021");
-        System.out.println("        by student name");
+        System.out.println("        by Muhammad Shakeel");
         System.out.println(" ------------------------------------");
 
         printCourse();
