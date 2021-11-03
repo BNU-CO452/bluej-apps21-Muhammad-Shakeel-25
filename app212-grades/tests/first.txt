@@ -18,7 +18,7 @@ student1.print();
 student1.printTranscript();
  ------------------------------------
  App21-02: Exam Board Transcript 2021
-        by student name
+        by Muhammad Shakeels
  ------------------------------------
  Student ID: 21924162, Muhammad Shakeel
 
