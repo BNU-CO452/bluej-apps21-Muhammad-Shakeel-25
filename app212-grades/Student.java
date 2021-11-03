@@ -111,12 +111,18 @@ public class Student
         System.out.println(" Student ID: " + id + ", " + name);
     }
 
+    /**
+     * it print course of student.
+     */
     public void printCourse()
     {
         this.print();
         course.print();
     }
 
+    /**
+     * it prints module of the student.
+     */
     private void printModules()
     {
         for(ModuleMark moduleMark: marks)
@@ -125,6 +131,10 @@ public class Student
             System.out.println("\t" + course.convertToGrade(moduleMark.getValue()));
         }
     }
+
+    /**
+     * Print the transcript of the student.
+     */
 
     public void printTranscript()
     {
