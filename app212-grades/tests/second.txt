@@ -1,0 +1,51 @@
+Student student1 = new Student("Muhammad Shakeel", 21924162);
+Course course1 = new Course("AI", "Artificial intelligence");
+Module module1 = new Module("CO452", "Programming Concepts");
+Module module2 = new Module("CO450", "Computer Architectures");
+Module module3 = new Module("CO461", "3D Modelling");
+Module module4 = new Module("CO459", "Game Design");
+ModuleMark moduleMa1 = new ModuleMark(module1);
+moduleMa1.setMark(80);
+ModuleMark moduleMa2 = new ModuleMark(module2);
+moduleMa2.setMark(70);
+ModuleMark moduleMa3 = new ModuleMark(module3);
+moduleMa3.setMark(60);
+ModuleMark moduleMa4 = new ModuleMark(module4);
+moduleMa4.setMark(50);
+student1.enrol(course1);
+student1.print();
+ Student ID: 21924162, Muhammad Shakeel
+student1.printTranscript();
+ ------------------------------------
+ App21-02: Exam Board Transcript 2021
+        by Muhammad Shakeel
+ ------------------------------------
+ Student ID: 21924162, Muhammad Shakeel
+
+ Course AI: Artificial intelligence
+
+ CO452: 	Programming Concepts   	  15 credits
+ CO450: 	Computer Architectures	  15 credits
+ CO461: 	3D Modelling      	    	  15 credits
+ CO459: 	Game Design           	  15 credits
+
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+ Code 	 Module 		Credit	 Mark 	 Grade
+ ---- 	 -------------------- 	 ------	 ---- 	 -----
+
+ CO452: 	Programming Concepts   	  15	80	A
+
+ CO450: 	Computer Architectures	  15	70	A
+
+ CO461: 	3D Modelling   	       	  15	60	B
+
+ CO459: 	Game Design           	  15	50	C
+
+
+ Final Course Grade = B
+
+Module module5 = new Module("CO455", "Game Development");
+Error: You can enter only four modules
+ModuleMark moduleMa4 = new ModuleMark(module4);
+moduleMa4.setMark(0);
+You fail in this module

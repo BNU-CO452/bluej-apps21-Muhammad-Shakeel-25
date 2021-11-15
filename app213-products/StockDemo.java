@@ -1,11 +1,10 @@
-
 /**
  * Demonstrate the StockManager and Product classes.
  * The demonstration becomes properly functional as
  * the StockManager class is completed.
  * 
- * @author David J. Barnes and Michael Kölling.
- * @version 2016.02.29
+ * @author (Shakeel) 
+ * @version (02/11/2021)
  */
 public class StockDemo
 {
@@ -16,16 +15,23 @@ public class StockDemo
      * Create a StockManager and populate it with at least
      * 10 sample products.
      */
-    public StockDemo(StockList stock)
+     public StockDemo(StockList stock)
     {
         this.stock = stock;
         
         // Add at least 10 products, they must be unique to you
         // Make sure the ids are sequential numbers
         
-        stock.add(new Product(101, "Samsung Galaxy S20"));
-        stock.add(new Product(102, "Apple iPhone 12"));
-        stock.add(new Product(103, "Google Pixel 4A"));
+        stock.add(new Product(101, "Apple iPhone 1"));
+        stock.add(new Product(102, "Apple iPhone 2"));
+        stock.add(new Product(103, "Apple iPhone 3"));
+        stock.add(new Product(104, "Apple iPhone 4"));
+        stock.add(new Product(105, "Apple iPhone 5"));
+        stock.add(new Product(106, "Apple iPhone 6"));
+        stock.add(new Product(107, "Apple iPhone 7"));
+        stock.add(new Product(108, "Apple iPhone 8"));
+        stock.add(new Product(109, "Apple iPhone 9"));
+        stock.add(new Product(110, "Apple iPhone 10"));
     }
     
     /**
@@ -40,19 +46,45 @@ public class StockDemo
         // Show details of all of the products before delivery.
         
         stock.print();
-
+        
         buyProducts();
         stock.print();        
 
         sellProducts();
-        stock.print();        
+        stock.print(); 
     }
     
+    /**
+     * Buy a product based on amount and ID
+     */
     private void buyProducts()
     {
+        stock.buyProduct(101, 9);
+        stock.buyProduct(102, 4);
+        stock.buyProduct(103, 9);
+        stock.buyProduct(104, 3);
+        stock.buyProduct(105, 7);
+        stock.buyProduct(106, 5);
+        stock.buyProduct(107, 2);
+        stock.buyProduct(108, 9);
+        stock.buyProduct(109, 8);
+        stock.buyProduct(110, 4);
     }
 
+    /**
+     * Sell a product based on amount and ID
+     */
     private void sellProducts()
     {
+        stock.sellProduct(101, 5);
+        stock.sellProduct(102, 2);
+        stock.sellProduct(103, 4);
+        stock.sellProduct(104, 1);
+        stock.sellProduct(105, 5);
+        stock.sellProduct(106, 4);
+        stock.sellProduct(107, 1);
+        stock.sellProduct(108, 6);
+        stock.sellProduct(109, 4);
+        stock.sellProduct(110, 2);
     }    
 }

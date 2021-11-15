@@ -4,7 +4,7 @@
  * concerning the course the student is currently enrolled on
  * 
  * @author Michael Kölling and David Barnes
- * @modified by Derek Peacock and Nicholas Day
+ * @modified by Muhammad Shakeel
  * @version 2021:08:15
  */
 public class Student
@@ -13,16 +13,22 @@ public class Student
     private int id;
     // the student's full name
     private String name;
+    // the student's full father name
+    private String father_name;
+    // the student's Date of birth
+    private int date_of_birth;
     // The course the student is enrolled on
     private Course course;
     
     /**
      * Create a new student with a given name and ID number.
      */
-    public Student(String name, int id)
+    public Student(String name, int id,String father_name,int date_of_birth)
     {
         this.name = name;
         this.id = id;
+        this.father_name = father_name;
+        this.date_of_birth = date_of_birth;
     }
 
     /**
@@ -33,6 +39,23 @@ public class Student
         return name;
     }
 
+    
+     /**
+     * Return the full father name of this student.
+     */
+    public String getFatherName()
+    {
+        return father_name;
+    }
+    
+     /**
+     * Return the full father name of this student.
+     */
+    public String getDateOfBirth()
+    {
+        return ""+date_of_birth;
+    }
+    
      /**
      * Return the student ID of this student.
      */
@@ -46,12 +69,30 @@ public class Student
         this.course = course;
     }
     
+    
+      /**
+     * Get Scholarship for the student .
+     */
+    public void getScholarship(int age)
+    {
+        if(age<25)
+        {
+        System.out.println("you are eligible for a Scholarship");
+        }
+    else
+    {
+        System.out.println("you are not eligible for a Scholarship");
+    }
+    }
+    
+    
     /**
      * Print the student's name and ID number to the output terminal.
      */
     public void print()
     {
         System.out.println(" Student ID: " + id + " Name: " + name);
+        System.out.println(" Student Father Name: " + father_name + " Date of birth: " + date_of_birth);
     }
     
     public void printCourse()

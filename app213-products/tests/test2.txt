@@ -1,0 +1,40 @@
+StockList iphone = new StockList();
+StockDemo stockDem1 = new StockDemo(iphone);
+Product iphone1 = new Product(100, "Iphone 1");
+iphone1.increaseQuantity(5);
+iphone1.print();
+ ID 100: Iphone 1 stock level: 5
+Product iphone2 = new Product(101, "Iphone 2");
+iphone2.increaseQuantity(8);
+iphone2.print();
+ ID 101: Iphone 2 stock level: 8
+iphone2.decreaseQuantity(4);
+iphone2.print();
+ ID 101: Iphone 2 stock level: 4
+Product iphone3 = new Product(102, "Iphone 3");
+Product iphone4 = new Product(103, "Iphone 4");
+iphone4.getQuantity()
+    returned int 0
+Product iphone5 = new Product(104, "Iphone 5");
+Product iphone6 = new Product(105, "Iphone 6");
+Product iphone7 = new Product(106, "Iphone 7");
+Product iphone8 = new Product(107, "Iphone 8");
+Product iphone9 = new Product(108, "Iphone 9");
+Product iphone10 = new Product(109, "Iphone 10");
+Product iphone11 = new Product(110, "Iphone 11");
+iphone.print();
+
+ Shakeel's Stock List
+ ====================
+
+ ID 101: Apple iPhone 1 stock level: 0
+ ID 102: Apple iPhone 2 stock level: 0
+ ID 103: Apple iPhone 3 stock level: 0
+ ID 104: Apple iPhone 4 stock level: 0
+ ID 105: Apple iPhone 5 stock level: 0
+ ID 106: Apple iPhone 6 stock level: 0
+ ID 107: Apple iPhone 7 stock level: 0
+ ID 108: Apple iPhone 8 stock level: 0
+ ID 109: Apple iPhone 9 stock level: 0
+ ID 110: Apple iPhone 10 stock level: 0
+

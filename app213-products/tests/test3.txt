@@ -1,0 +1,117 @@
+StockList iphone = new StockList();
+StockDemo stockDem1 = new StockDemo(iphone);
+iphone.print();
+
+ Shakeel's Stock List
+ ====================
+
+ ID 101: Apple iPhone 1 stock level: 0
+ ID 102: Apple iPhone 2 stock level: 0
+ ID 103: Apple iPhone 3 stock level: 0
+ ID 104: Apple iPhone 4 stock level: 0
+ ID 105: Apple iPhone 5 stock level: 0
+ ID 106: Apple iPhone 6 stock level: 0
+ ID 107: Apple iPhone 7 stock level: 0
+ ID 108: Apple iPhone 8 stock level: 0
+ ID 109: Apple iPhone 9 stock level: 0
+ ID 110: Apple iPhone 10 stock level: 0
+
+iphone.remove(102);
+Product Removed Apple iPhone 2
+iphone.print();
+
+ Shakeel's Stock List
+ ====================
+
+ ID 101: Apple iPhone 1 stock level: 0
+ ID 103: Apple iPhone 3 stock level: 0
+ ID 104: Apple iPhone 4 stock level: 0
+ ID 105: Apple iPhone 5 stock level: 0
+ ID 106: Apple iPhone 6 stock level: 0
+ ID 107: Apple iPhone 7 stock level: 0
+ ID 108: Apple iPhone 8 stock level: 0
+ ID 109: Apple iPhone 9 stock level: 0
+ ID 110: Apple iPhone 10 stock level: 0
+
+stockDem1.runDemo();
+
+ Shakeel's Stock List
+ ====================
+
+ ID 101: Apple iPhone 1 stock level: 0
+ ID 103: Apple iPhone 3 stock level: 0
+ ID 104: Apple iPhone 4 stock level: 0
+ ID 105: Apple iPhone 5 stock level: 0
+ ID 106: Apple iPhone 6 stock level: 0
+ ID 107: Apple iPhone 7 stock level: 0
+ ID 108: Apple iPhone 8 stock level: 0
+ ID 109: Apple iPhone 9 stock level: 0
+ ID 110: Apple iPhone 10 stock level: 0
+
+Brought 9 of Apple iPhone 1
+Couldn't find product
+Brought 9 of Apple iPhone 3
+Brought 3 of Apple iPhone 4
+Brought 7 of Apple iPhone 5
+Brought 5 of Apple iPhone 6
+Brought 2 of Apple iPhone 7
+Brought 9 of Apple iPhone 8
+Brought 8 of Apple iPhone 9
+Brought 4 of Apple iPhone 10
+
+ Shakeel's Stock List
+ ====================
+
+ ID 101: Apple iPhone 1 stock level: 9
+ ID 103: Apple iPhone 3 stock level: 9
+ ID 104: Apple iPhone 4 stock level: 3
+ ID 105: Apple iPhone 5 stock level: 7
+ ID 106: Apple iPhone 6 stock level: 5
+ ID 107: Apple iPhone 7 stock level: 2
+ ID 108: Apple iPhone 8 stock level: 9
+ ID 109: Apple iPhone 9 stock level: 8
+ ID 110: Apple iPhone 10 stock level: 4
+
+Sold 5 of Apple iPhone 1
+Couldn't find product
+Sold 4 of Apple iPhone 3
+Sold 1 of Apple iPhone 4
+Sold 5 of Apple iPhone 5
+Sold 4 of Apple iPhone 6
+Sold 1 of Apple iPhone 7
+Sold 6 of Apple iPhone 8
+Sold 4 of Apple iPhone 9
+Sold 2 of Apple iPhone 10
+
+ Shakeel's Stock List
+ ====================
+
+ ID 101: Apple iPhone 1 stock level: 4
+ ID 103: Apple iPhone 3 stock level: 5
+ ID 104: Apple iPhone 4 stock level: 2
+ ID 105: Apple iPhone 5 stock level: 2
+ ID 106: Apple iPhone 6 stock level: 1
+ ID 107: Apple iPhone 7 stock level: 1
+ ID 108: Apple iPhone 8 stock level: 3
+ ID 109: Apple iPhone 9 stock level: 4
+ ID 110: Apple iPhone 10 stock level: 2
+
+iphone.print();
+
+ Shakeel's Stock List
+ ====================
+
+ ID 101: Apple iPhone 1 stock level: 4
+ ID 103: Apple iPhone 3 stock level: 5
+ ID 104: Apple iPhone 4 stock level: 2
+ ID 105: Apple iPhone 5 stock level: 2
+ ID 106: Apple iPhone 6 stock level: 1
+ ID 107: Apple iPhone 7 stock level: 1
+ ID 108: Apple iPhone 8 stock level: 3
+ ID 109: Apple iPhone 9 stock level: 4
+ ID 110: Apple iPhone 10 stock level: 2
+
+iphone.findProduct(103)
+    returned Object <object reference>
+iphone.findProductName("Apple iPhone 4")
+ ID 101: Apple iPhone 1 stock level: 4 ID 103: Apple iPhone 3 stock level: 5    returned Object <object reference>
