@@ -130,3 +130,24 @@ iphone.findProducts("Apple");
  ID 110: Apple iPhone 10 stock level: 0
 iphone.findProducts("Apple iPhone 3");
  ID 103: Apple iPhone 3 stock level: 0
+iphone.reStock();
+You have brought 100 of Apple iPhone 1
+ ID 101: Apple iPhone 1 stock level: 100
+You have brought 100 of Apple iPhone 2
+ ID 102: Apple iPhone 2 stock level: 100
+You have brought 100 of Apple iPhone 3
+ ID 103: Apple iPhone 3 stock level: 100
+You have brought 100 of Apple iPhone 4
+ ID 104: Apple iPhone 4 stock level: 100
+You have brought 100 of Apple iPhone 5
+ ID 105: Apple iPhone 5 stock level: 100
+You have brought 100 of Apple iPhone 6
+ ID 106: Apple iPhone 6 stock level: 100
+You have brought 100 of Apple iPhone 7
+ ID 107: Apple iPhone 7 stock level: 100
+You have brought 100 of Apple iPhone 8
+ ID 108: Apple iPhone 8 stock level: 100
+You have brought 100 of Apple iPhone 9
+ ID 109: Apple iPhone 9 stock level: 100
+You have brought 100 of Apple iPhone 10
+ ID 110: Apple iPhone 10 stock level: 100
