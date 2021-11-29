@@ -1,0 +1,200 @@
+      by Muhammad Shakeel
+********************************
+
+1.Add:        Add a new product
+2.Remove:     Remove an old product
+3.Search:     Search for products by what there name starts with, it will give you ID and quantity of product
+4.Buy:        Buy an existing product by ID(amount between one and ten)
+5.Sell:       Sell an existing product by ID(amount between one and ten)
+6.Low Stock:  Print all products that have low stock(amount between one and 5 (you pick)),then have a option if you want to restock the low stock(will buy ten)
+7.Re-stock:   Restock (amount between one and ten(you pick)) the products that have lowstock(amount between one and 5)
+8.Print:      Print all the products
+9.Quit:       Quit the program
+
+Please enter your choice > 1
+Please enter ID of product > 
+101
+Please enter name of product > Apple iphone 1
+Product Apple iphone 1 with ID 101 has been added
+********************************
+  App21-04: Stock Application 
+      by Muhammad Shakeel
+********************************
+
+1.Add:        Add a new product
+2.Remove:     Remove an old product
+3.Search:     Search for products by what there name starts with, it will give you ID and quantity of product
+4.Buy:        Buy an existing product by ID(amount between one and ten)
+5.Sell:       Sell an existing product by ID(amount between one and ten)
+6.Low Stock:  Print all products that have low stock(amount between one and 5 (you pick)),then have a option if you want to restock the low stock(will buy ten)
+7.Re-stock:   Restock (amount between one and ten(you pick)) the products that have lowstock(amount between one and 5)
+8.Print:      Print all the products
+9.Quit:       Quit the program
+
+Please enter your choice > 1
+Please enter ID of product > 
+102
+Please enter name of product > Apple iphone 2
+Product Apple iphone 2 with ID 102 has been added
+********************************
+  App21-04: Stock Application 
+      by Muhammad Shakeel
+********************************
+
+1.Add:        Add a new product
+2.Remove:     Remove an old product
+3.Search:     Search for products by what there name starts with, it will give you ID and quantity of product
+4.Buy:        Buy an existing product by ID(amount between one and ten)
+5.Sell:       Sell an existing product by ID(amount between one and ten)
+6.Low Stock:  Print all products that have low stock(amount between one and 5 (you pick)),then have a option if you want to restock the low stock(will buy ten)
+7.Re-stock:   Restock (amount between one and ten(you pick)) the products that have lowstock(amount between one and 5)
+8.Print:      Print all the products
+9.Quit:       Quit the program
+
+Please enter your choice > 1
+Please enter ID of product > 
+103
+Please enter name of product > iphone 3
+Product iphone 3 with ID 103 has been added
+********************************
+  App21-04: Stock Application 
+      by Muhammad Shakeel
+********************************
+
+1.Add:        Add a new product
+2.Remove:     Remove an old product
+3.Search:     Search for products by what there name starts with, it will give you ID and quantity of product
+4.Buy:        Buy an existing product by ID(amount between one and ten)
+5.Sell:       Sell an existing product by ID(amount between one and ten)
+6.Low Stock:  Print all products that have low stock(amount between one and 5 (you pick)),then have a option if you want to restock the low stock(will buy ten)
+7.Re-stock:   Restock (amount between one and ten(you pick)) the products that have lowstock(amount between one and 5)
+8.Print:      Print all the products
+9.Quit:       Quit the program
+
+Please enter your choice > 1
+Please enter ID of product > 
+104
+Please enter name of product > iphone 4
+Product iphone 4 with ID 104 has been added
+********************************
+  App21-04: Stock Application 
+      by Muhammad Shakeel
+********************************
+
+1.Add:        Add a new product
+2.Remove:     Remove an old product
+3.Search:     Search for products by what there name starts with, it will give you ID and quantity of product
+4.Buy:        Buy an existing product by ID(amount between one and ten)
+5.Sell:       Sell an existing product by ID(amount between one and ten)
+6.Low Stock:  Print all products that have low stock(amount between one and 5 (you pick)),then have a option if you want to restock the low stock(will buy ten)
+7.Re-stock:   Restock (amount between one and ten(you pick)) the products that have lowstock(amount between one and 5)
+8.Print:      Print all the products
+9.Quit:       Quit the program
+
+Please enter your choice > 1
+Please enter ID of product > 
+105
+Please enter name of product > i phone 5
+Product i phone 5 with ID 105 has been added
+********************************
+  App21-04: Stock Application 
+      by Muhammad Shakeel
+********************************
+
+1.Add:        Add a new product
+2.Remove:     Remove an old product
+3.Search:     Search for products by what there name starts with, it will give you ID and quantity of product
+4.Buy:        Buy an existing product by ID(amount between one and ten)
+5.Sell:       Sell an existing product by ID(amount between one and ten)
+6.Low Stock:  Print all products that have low stock(amount between one and 5 (you pick)),then have a option if you want to restock the low stock(will buy ten)
+7.Re-stock:   Restock (amount between one and ten(you pick)) the products that have lowstock(amount between one and 5)
+8.Print:      Print all the products
+9.Quit:       Quit the program
+
+Please enter your choice > 8
+
+ Shakeel's Stock List
+ ====================================
+
+ ID 101: Apple iphone 1 stock level: 0
+ ID 102: Apple iphone 2 stock level: 0
+ ID 103: iphone 3 stock level: 0
+ ID 104: iphone 4 stock level: 0
+ ID 105: i phone 5 stock level: 0
+
+********************************
+  App21-04: Stock Application 
+      by Muhammad Shakeel
+********************************
+
+1.Add:        Add a new product
+2.Remove:     Remove an old product
+3.Search:     Search for products by what there name starts with, it will give you ID and quantity of product
+4.Buy:        Buy an existing product by ID(amount between one and ten)
+5.Sell:       Sell an existing product by ID(amount between one and ten)
+6.Low Stock:  Print all products that have low stock(amount between one and 5 (you pick)),then have a option if you want to restock the low stock(will buy ten)
+7.Re-stock:   Restock (amount between one and ten(you pick)) the products that have lowstock(amount between one and 5)
+8.Print:      Print all the products
+9.Quit:       Quit the program
+
+Please enter your choice > 7
+Please enter the max quanity to show (between 1 and 5)> 
+5
+Please enter the amount to buy (between 1 and 10) for each > 
+4
+You have brought 4 of Apple iphone 1
+ ID 101: Apple iphone 1 stock level: 4
+You have brought 4 of Apple iphone 2
+ ID 102: Apple iphone 2 stock level: 4
+You have brought 4 of iphone 3
+ ID 103: iphone 3 stock level: 4
+You have brought 4 of iphone 4
+ ID 104: iphone 4 stock level: 4
+You have brought 4 of i phone 5
+ ID 105: i phone 5 stock level: 4
+********************************
+  App21-04: Stock Application 
+      by Muhammad Shakeel
+********************************
+
+1.Add:        Add a new product
+2.Remove:     Remove an old product
+3.Search:     Search for products by what there name starts with, it will give you ID and quantity of product
+4.Buy:        Buy an existing product by ID(amount between one and ten)
+5.Sell:       Sell an existing product by ID(amount between one and ten)
+6.Low Stock:  Print all products that have low stock(amount between one and 5 (you pick)),then have a option if you want to restock the low stock(will buy ten)
+7.Re-stock:   Restock (amount between one and ten(you pick)) the products that have lowstock(amount between one and 5)
+8.Print:      Print all the products
+9.Quit:       Quit the program
+
+Please enter your choice > 7
+Please enter the max quanity to show (between 1 and 5)> 
+5
+Please enter the amount to buy (between 1 and 10) for each > 
+7
+You have brought 7 of Apple iphone 1
+ ID 101: Apple iphone 1 stock level: 11
+You have brought 7 of Apple iphone 2
+ ID 102: Apple iphone 2 stock level: 11
+You have brought 7 of iphone 3
+ ID 103: iphone 3 stock level: 11
+You have brought 7 of iphone 4
+ ID 104: iphone 4 stock level: 11
+You have brought 7 of i phone 5
+ ID 105: i phone 5 stock level: 11
+********************************
+  App21-04: Stock Application 
+      by Muhammad Shakeel
+********************************
+
+1.Add:        Add a new product
+2.Remove:     Remove an old product
+3.Search:     Search for products by what there name starts with, it will give you ID and quantity of product
+4.Buy:        Buy an existing product by ID(amount between one and ten)
+5.Sell:       Sell an existing product by ID(amount between one and ten)
+6.Low Stock:  Print all products that have low stock(amount between one and 5 (you pick)),then have a option if you want to restock the low stock(will buy ten)
+7.Re-stock:   Restock (amount between one and ten(you pick)) the products that have lowstock(amount between one and 5)
+8.Print:      Print all the products
+9.Quit:       Quit the program
+
+Please enter your choice > 
