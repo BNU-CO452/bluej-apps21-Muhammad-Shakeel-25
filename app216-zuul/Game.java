@@ -10,8 +10,8 @@
  *  This main class creates and initialises all the others: it creates all
  *  locations, creates the CommandReader and starts the game.  
  * 
- * @author  Michael Kölling and David J. Barnes
- * @version 2016.02.29
+ * @author  Michael Kölling and David J. Barnes and Muhammad Shakeel
+ * @version 2022-01-01
  * 
  * Modified and extended by Student Name
  */
@@ -21,7 +21,7 @@ public class Game
     public final Map MAP;
     private CommandReader reader;
     private boolean gameOver;
-        
+    public Player PLAYER;
     /**
      * Create the game and initialise its internal map.
      */
@@ -29,6 +29,7 @@ public class Game
     {
         MAP = new Map();
         reader = new CommandReader(this);
+        PLAYER = new Player();
     }
 
     /**
@@ -56,8 +57,7 @@ public class Game
     private void printWelcome()
     {
         System.out.println();
-        System.out.println(" Welcome to the World of Zuul!");
-        System.out.println(" World of Zuul is a new, incredibly boring adventure game.");
+        System.out.println(" Welcome to Mystery Unigame!");
         System.out.println(" Type 'help' if you need help.");
         System.out.println();
         System.out.println(MAP.getCurrentLocation().getLongDescription());

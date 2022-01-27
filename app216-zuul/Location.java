@@ -1,6 +1,7 @@
 import java.util.Set;
 import java.util.HashMap;
 import java.util.Iterator;
+import java.util.ArrayList;
 
 /**
  * Class Location - a location on the map of an adventure game.
@@ -13,14 +14,15 @@ import java.util.Iterator;
  * location stores a reference to the neighboring locations.
  * 
  * @author  Michael Kölling and David J. Barnes
- * Modified by Derek Peacock & Nicholas Day
- * @version 2016.02.29
+ * Modified by Derek Peacock & Nicholas Day and Muhammad Shakeel
+ * @version 2022-01-01
  */
 
 public class Location 
 {
     private String description;
-    private HashMap<String, Location> exits;        // stores exits of this room.
+    private HashMap<String, Location> exits;       // stores exits of this room.
+    public ArrayList<Item> itemlist;
 
     /**
      * Create a location described "description". Initially, it has
@@ -31,6 +33,7 @@ public class Location
     {
         this.description = description;
         exits = new HashMap<>();
+        itemlist = new ArrayList<>();
     }
 
     /**
@@ -60,7 +63,7 @@ public class Location
      */
     public String getLongDescription()
     {
-        return " You are " + description + ".\n" + getExitString();
+        return " You are in the " + description + ".\n" + getExitString() + ".\n" + getItemList();
     }
 
     /**
@@ -88,6 +91,35 @@ public class Location
     public Location getExit(String direction) 
     {
         return exits.get(direction);
+    }
+    
+    /**
+     * Set Item
+     */
+    public void setItem(Item item)
+    {
+        itemlist.add(item);
+    }
+    public Item findItem(String itemName)
+    {
+        for(Item item: itemlist)
+        {
+            if(item.getItemName().toLowerCase().equals(itemName.toLowerCase()))
+            {
+                return item;
+            }
+        }
+        return null;
+    }
+    
+    public String getItemList()
+    {
+        System.out.println("You have: ");
+        for (Item item : itemlist)
+        {
+            return " " + item.getItemName() + " : " + item.getItemDescription() + "\n";
+        }
+        return null;    
     }
 }
 

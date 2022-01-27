@@ -1,0 +1,53 @@
+Game game1 = new Game();
+game1.play();
+
+ Welcome to Mystery Unigame!
+ Type 'help' if you need help.
+
+You have: 
+ You are The 1st room of the Unigame.
+ Exits: east.
+null
+ > go room1
+There is no exit in this direction!
+ > help
+ You are lost. You are alone. You wander
+ around at the university.
+
+ Your command words are:
+
+ go	  : Exit location in <direction>
+ take	  : Take <item> from location
+ help	  : List all available commands
+ quit	  : End the game
+
+ e.g. go west, take gold
+
+You have: 
+ You are The 1st room of the Unigame.
+ Exits: east.
+null
+ > ge east
+ > go east
+You have: 
+ You are Hallway of the Unigame..
+ Exits: room5 room6 room3 room4 room7 room8 room1 room2.
+null
+ > go room2
+You have: 
+ You are The 2nd room of the Unigame.
+ Exits: west.
+null
+ > go west
+You have: 
+ You are Hallway of the Unigame..
+ Exits: room5 room6 room3 room4 room7 room8 room1 room2.
+null
+ > go room8
+You have: 
+ You are The 8th room of the Unigame.
+ Exits: east.
+null
+ > take gold
+You have failed.
+ > 

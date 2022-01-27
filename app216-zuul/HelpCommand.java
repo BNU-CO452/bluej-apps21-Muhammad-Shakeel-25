@@ -2,8 +2,8 @@ import java.util.ArrayList;
 /**
  * Write a description of class HelpCommand here.
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author (Muhammad Shakeel)
+ * @version (2022-01-01)
  */
 public class HelpCommand extends ZuulCommand
 {

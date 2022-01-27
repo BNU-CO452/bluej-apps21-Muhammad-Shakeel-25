@@ -1,4 +1,4 @@
-/**
+ /**
  * This class is part of the "World of Zuul" application. 
  * "World of Zuul" is a very simple, text based adventure game.  
  *
@@ -16,8 +16,8 @@
  * This replaces the BlueJ Command class and is based
  * on the classic Coomand design pattern
  * 
- * Derek Peacock & Nicholas Day
- * @version 2021-08-23
+ * Derek Peacock & Nicholas Day & Muhammad Shakeel
+ * @version 2022-01-01
  */
 public abstract class ZuulCommand
 {

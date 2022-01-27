@@ -5,8 +5,8 @@
  * and carry it around to use somewhere
  * else
  *
- * @author Derek Peacock & Nicholas Day
- * @version 2021-08-23
+ * @author Derek Peacock & Nicholas Day & Muhammad Shakeel
+ * @version 2022-01-01
  */
 public class TakeCommand extends ZuulCommand
 {
@@ -24,16 +24,26 @@ public class TakeCommand extends ZuulCommand
 
     public void execute()
     {
+        Map map = zuul.MAP;
+        Player player = zuul.PLAYER;
         if(item == null) 
         {
-            // if there is no second word, we don't know what to take...
             System.out.println("Take what?");
             return;
         }
-
-        Map map = zuul.MAP;
-        // remove the item from the current room
-        // and add it to the player's inventory
-        // Print out a suitable message.
+        else
+        {
+            Item item1 = map.getCurrentLocation().findItem(item);
+            if(map.getCurrentLocation().itemlist.contains(item1))
+            {
+                player.add(item1);
+                map.getCurrentLocation().itemlist.remove(item1);
+                System.out.println(item1.getItemName() + item1.getItemDescription());
+            }
+            else
+            {
+                System.out.println("You have failed.");
+            }
+        }
     }
 }
